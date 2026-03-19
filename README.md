@@ -11,6 +11,13 @@ A lightweight Windows utility that displays numbers over your taskbar icons to h
   - **Exit**: Close the application cleanly.
 - **Dynamic Updates**: Refreshes every 500ms to stay in sync with your taskbar as you open or close apps.
 
+## Releases
+
+You can download the pre-compiled binaries for Windows from the [Releases](https://github.com/DucMinh2211/taskbar-number/releases) page.
+
+- **x64**: Recommended for modern 64-bit Windows 10/11.
+- **x86**: For 32-bit Windows or older hardware.
+
 ## Installation
 
 ### Prerequisites
@@ -22,7 +29,7 @@ A lightweight Windows utility that displays numbers over your taskbar icons to h
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/taskbar-number.git
+   git clone https://github.com/DucMinh2211/taskbar-number.git
    cd taskbar-number
    ```
 
@@ -51,4 +58,4 @@ A lightweight Windows utility that displays numbers over your taskbar icons to h
 
 ## License
 
-[MIT](LICENSE)
+This project is licensed under the [MIT License](LICENSE).
