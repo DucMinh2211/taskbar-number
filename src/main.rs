@@ -283,7 +283,7 @@ fn create_overlay_window() -> Result<()> {
         
         let tip = w!("Taskbar Number");
         let tip_slice = tip.as_wide();
-        let len = tip_slice.len().min(nid.szTip.len() - 1);
+        let len = tip_slice.len().min(127);
         for i in 0..len {
             nid.szTip[i] = tip_slice[i];
         }
